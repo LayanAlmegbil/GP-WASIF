@@ -1,0 +1,9 @@
+flask
+tensorflow
+torch
+torchvision
+torchaudio
+opencv-python-headless
+mediapipe
+numpy
+gunicorn
