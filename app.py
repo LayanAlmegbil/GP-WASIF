@@ -7,7 +7,7 @@ from flask import Flask, Response, jsonify
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/", methods=["GET"])
 # ✅ Load the trained model
 MODEL_PATH = "model.h5"
 if not os.path.exists(MODEL_PATH):
